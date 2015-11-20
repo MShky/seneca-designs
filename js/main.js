@@ -1,0 +1,50 @@
+var flag_fr=document.getElementById("flag-fr");
+var flag_th=document.getElementById("flag-th");
+var flag_ne=document.getElementById("flag-ne");
+var flag_it=document.getElementById("flag-it");
+
+var stage=flag_fr.getContext("2d");
+stage.fillStyle="blue";
+stage.fillRect(0,0,66,100);
+var stage=flag_fr.getContext("2d");
+stage.fillStyle="white";
+stage.fillRect(66,0,67,100);
+var stage=flag_fr.getContext("2d");
+stage.fillStyle="red";
+stage.fillRect(134,0,66,100);
+
+var stage=flag_th.getContext("2d");
+stage.fillStyle="red";
+stage.fillRect(0,0,200,16);
+var stage=flag_th.getContext("2d");
+stage.fillStyle="white";
+stage.fillRect(0,16,200,16);
+var stage=flag_th.getContext("2d");
+stage.fillStyle="blue";
+stage.fillRect(0,32,200,36);
+var stage=flag_th.getContext("2d");
+stage.fillStyle="white";
+stage.fillRect(0,68,200,16);
+var stage=flag_th.getContext("2d");
+stage.fillStyle="red";
+stage.fillRect(0,84,200,16);
+
+var stage=flag_ne.getContext("2d");
+stage.fillStyle="red";
+stage.fillRect(0,0,200,33);
+var stage=flag_ne.getContext("2d");
+stage.fillStyle="white";
+stage.fillRect(0,33,200,34);
+var stage=flag_ne.getContext("2d");
+stage.fillStyle="blue";
+stage.fillRect(0,67,200,33);
+
+var stage=flag_it.getContext("2d");
+stage.fillStyle="green";
+stage.fillRect(0,0,66,100);
+var stage=flag_it.getContext("2d");
+stage.fillStyle="white";
+stage.fillRect(66,0,67,100);
+var stage=flag_it.getContext("2d");
+stage.fillStyle="red";
+stage.fillRect(134,0,66,100);

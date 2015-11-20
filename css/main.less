@@ -1,0 +1,43 @@
+/*mixin*/
+.RoundBorders {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/*variables*/
+@green: #7bab2e;
+@grey:#B0B7BD;
+@shadow: 4px 3px black;
+
+
+/*functions*/
+@greyDark: darken(@grey, 10%);
+@greyLight: lighten(@grey, 20%);
+
+
+#head{
+	background: url(../img/meeting2.jpg) no-repeat left center;
+	h1{
+		color: @green;
+		font-size:5.5em;
+		text-shadow: @shadow;
+	}
+
+}
+#main-text{
+		background: @greyDark;
+		h2{
+			text-align:center;
+			color: white;
+		}
+		.btn-default{
+		background:@greyLight;
+		}
+		canvas{
+		border: 2px solid @grey;
+		}
+		img{
+		.RoundBorders;
+		}
+	}
